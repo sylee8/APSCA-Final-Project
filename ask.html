@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ <h1>Get Your Free Heart Disease Prediction Here</h1>
+  <h2>Please enter all of the information</h2>
+ <script type="text/javascript" src="script.js"></script>  
+  <head>
+    <meta charset="utf-8">
+    <title>Ask</title>
+    <form>
+      </section>
+      <label for= "age" >enter age: </label>
+      <input type="text" id = "age" name = "age">
+      <br><br> 
+      <input type="radio" id = "gender" value = "male"> male<br>
+      <input type="radio" id = "gender" value = "female"> female<br><br>
+      </section>
+      <section>
+        <h4>Enter your levels in mg/dL</h4>
+      <label for= "ldl" >LDL cholesterol levels: </label>
+      <input type="text" id = "ldl" name = "ldl">
+      <br><br>
+        <label for= "hdl" >HDL cholesterol levels: </label>
+      <input type="text" id = "hdl" name = "hdl">
+      <br><br>
+        <label for= "triglycerides" >Triglycerides levels: </label>
+      <input type="text" id = "triglycerides" name = "triglycerides">
+      <br><br>
+      </section>
+      <section>
+        <h4>Background</h4>
+      <label for= "family" > Do you have a family history of heart disease? </label>
+      <input type="text" id = "family" name = "family">
+      <br><br>
+      <label for= "smoke" > Do you smoke or are exposed to smoking in your household? </label>
+      <input type="text" id = "smoke" name = "smoke">
+      <br><br>
+      <label for= "legs" > Do you feel numbness, pain, discomfort, or burning in your lower body, such as calves, thighs, legs, or feet? </label>
+      <input type="text" id = "legs" name = "legs">
+      <br><br>
+          <label for= "chestPain" >Are you experiencing chest pain? </label>
+      <input type="text" id = "chestPain" name = "chestPain">
+      <br><br>
+        <label for= "shortBreath" >Are you experiencing shortness of breath? </label>
+      <input type="text" id = "shortBreath" name = "shortBreath">
+      <br><br>
+        </section>
+       <button onclick="
+  check(document.getElementById('gender').value, document.getElementById('shortBreath').value, document.getElementById('chestPain').value, document.getElementById('ldl').value, document.getElementById('hdl').value, document.getElementById('triglycerides').value, document.getElementById('family').value, document.getElementById('smoke').value, document.getElementById('legs').value)" > Click to see results</button> 
+ 
+</form>
+  </head>
+</html> 
