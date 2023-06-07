@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<h2>Free Online Medical Consulting</h2>
+</body>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div>  
+  <img class="mySlides" src="https://media.istockphoto.com/id/1227177907/photo/bed-in-hallway-the-concept-of-working-stressful-environment.jpg?s=612x612&w=0&k=20&c=rbwntMvVvq31bXplUKLP6fDuYe5sjSgZhMaMn2W-K04="style="width:100%">
+  <img class="mySlides" src="https://media.istockphoto.com/id/1364075546/photo/empty-corridor-in-modern-hospital-with-information-counter-and-hospital-bed-in-rooms-3d.jpg?s=612x612&w=0&k=20&c=xxFDmIVpH1wJaaiorpvfzec4RRggSb48PDb_dU9bTjo=" style="width:100%">
+  <img class="mySlides" src="https://www.christushealth.org/-/media/christus-health/locations/images/service-tiles-401x282/emergency-and-trauma_401x282.ashx?h=268&iar=0&w=401&hash=914DB480D82288ED1B8C5DAE53001AF5" style="width:100%">
+</div>
+  
+<script>
+  var myIndex = 0;
+  carousel();
+  function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+  }
+</script>
+
+  
+<div>
+  <a href="ask.html" class="button bar-item">Ask</a>
+  <a href="about.html" class="button bar-item">About us</a>
+ 
+  <a href="info.html" class="button bar-item">Info from Results</a>
+</div>
+
+
+
+</html>
